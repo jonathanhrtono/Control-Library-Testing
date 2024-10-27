@@ -23,8 +23,8 @@ plt.figure()
 ct.root_locus(P)
 
 # Controller transfer function - lead-lag
-Tc = 1
-z = -3
+Tc = 0.2
+z = -1
 K = 2
 C = K*(s-z)/(Tc*s+1)
 
